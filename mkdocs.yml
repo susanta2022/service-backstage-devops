@@ -9,4 +9,4 @@ plugins:
 nav:
   - Overview:
       - What is Backstage?: 'overview/what-is-backstage.md'
-  
+      - Systems architecture: 'architecture/task1.md'
