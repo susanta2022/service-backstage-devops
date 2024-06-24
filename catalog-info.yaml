@@ -11,6 +11,6 @@ spec:
   owner: artist-relations-team
   system: artist-engagement-portal
   dependsOn:
-    - resource:default/example-website
+    - resource:default/ansible-demo
   providesApis:
     - artist-api
