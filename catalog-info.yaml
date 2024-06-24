@@ -6,6 +6,11 @@ metadata:
     github.com/project-slug: susanta2022/service-backstage-devops
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: other
-  lifecycle: unknown
-  owner: guests
+  type: website
+  lifecycle: production
+  owner: artist-relations-team
+  system: artist-engagement-portal
+  dependsOn:
+    - resource:default/artists-db
+  providesApis:
+    - artist-api
