@@ -12,5 +12,6 @@ spec:
   system: artist-engagement-portal
   dependsOn:
     - component:default/ansible-demo
+    - resource:default/artists-db
   providesApis:
     - artist-api
